@@ -440,21 +440,6 @@ const Dashboard = () => {
 
       <Box sx={{ flexGrow: { lg: 1, md:1,  xs: "none" }, backgroundColor: "#bfebff", overflowY:"auto",       marginLeft: { lg: "25%", xs: 0, sm: 0, md: "25%" }, 
  }} >
-        {/* <AppBar position='static'sx={{ backgroundColor:'white',  }} >
-            <Toolbar>
-                <Box  sx={{ display:'flex', alignItems:'center', gap:5 }} >
-                    <Typography className="appBarLetters" sx={{ fontFamily:'Poppins', fontWeight:500 }} >DashBoard</Typography>
-
-                    <Typography onClick={() => window.open('https://prepaid.nsdlbank.co.in/', '')} className="appBarLetters" sx={{ fontFamily:'Poppins', fontWeight:500 }} >NSDL Card Reset Pin</Typography>
-                    <Box onClick={handleClick2} sx={{ display:'flex', alignItems:'center', justifyContent:'center' }} >
-                        <Typography className="appBarLetters" sx={{ fontFamily:'Poppins', fontWeight:500 }} >Create Order</Typography>
-                        <KeyboardArrowDownIcon sx={{ color:"#33439B" }} />
-                    </Box>
-                    <Typography onClick={() => navigate('/report')} className="appBarLetters" sx={{ fontFamily:'Poppins', fontWeight:500 }} >Report</Typography>
-                    <Typography onClick={() => window.open('https://eezib.in/eezib' , '')} className="appBarLetters" sx={{ fontFamily:'Poppins', fontWeight:500 }} >Gift Voucher</Typography>
-                </Box>
-            </Toolbar>
-        </AppBar> */}
 
         <Header />
         {/* <Button size='small' sx={{mb:-1, mt:1 }} variant='outlined' endIcon={ <RefreshIcon/> } >refresh</Button> */}
